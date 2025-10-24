@@ -1,6 +1,6 @@
 {
-  "name": "ANNIE X MUSIC",
-  "description": "ANNIE X MUSIC is a powerful and versatile Telegram Music Player Bot built with Python, utilizing Pyrogram and Py-Tgcalls libraries for high-quality group voice chat music streaming. This bot offers seamless playback, custom download server integration, and AI-enhanced features for a premium user experience.",
+  "name": "DULLU X MUSIC",
+  "description": "Dullu x Music is a powerful and versatile Telegram Music Player Bot built with Python, utilizing Pyrogram and Py-Tgcalls libraries for high-quality group voice chat music streaming. This bot offers seamless playback, custom download server integration, and AI-enhanced features for a premium user experience.",
   "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
   "keywords": [
     "python3",
@@ -14,12 +14,12 @@
     "API_ID": {
       "description": "Telegram API ID, available at https://my.telegram.org. Required to connect the bot to Telegram servers.",
       "required": true,
-      "value": "23887102"
+      "value": "23594564"
     },
     "API_HASH": {
       "description": "Telegram API Hash, available at https://my.telegram.org. Required alongside API ID.",
       "required": true,
-      "value": "93df961b3536998d67e93f25f0d98927"
+      "value": "ca18fb2a520f328c6afd18493b54d52c"
     },
     "BOT_TOKEN": {
       "description": "Bot Token from BotFather after creating your Telegram bot.",
@@ -34,7 +34,7 @@
     "OWNER_ID": {
       "description": "Your Telegram numeric user ID (use @userinfobot to find it). Multiple IDs can be separated by a space.",
       "required": true,
-      "value": ""
+      "value": "7740542002"
     },
     "STRING_SESSION": {
       "description": "Pyrogram v2 session string. Generate it securely from https://telegram.tools/session-string-generator#pyrogram.",
