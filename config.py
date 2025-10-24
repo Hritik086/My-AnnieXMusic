@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
+API_ID = int(getenv("API_ID", 23594564))
+API_HASH = getenv("API_HASH", "ca18fb2a520f328c6afd18493b54d52c")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7660990923))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Lord_Vasudev_Krishna")
-BOT_USERNAME = getenv("BOT_USERNAME", "Noelamusicbot")
-BOT_NAME = getenv("BOT_NAME", "𝐍ᴏᴇʟᴀ 𝝌 𝐌ᴜsɪᴄ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "˹𝐍ᴏᴇʟᴀ ✘ 𝐀ssɪsᴛᴀɴᴛ˼")
+OWNER_ID = int(getenv("OWNER_ID", 7740542002))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Bihari_Niggaa)
+BOT_USERNAME = getenv("BOT_USERNAME", "Dullu_ProBot)
+BOT_NAME = getenv("BOT_NAME", "˹ᴅᴇʟᴜᴤɪᴏɴ ꭙ ϻᴜsɪᴄ˼ ♪")
+ASSUSERNAME = getenv("ASSUSERNAME", "DulluxMusic")
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003124118379))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -45,8 +45,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "t.me/DeluluPoint")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "t.me/delulu_Logs")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
